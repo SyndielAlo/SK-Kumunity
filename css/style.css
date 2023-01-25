@@ -4,12 +4,12 @@
 *   FOR RESPONSIVENESS      *
 ****************************/
 ::selection {
-  background: #1E90FF;
+  background: #4f5362;
   /* WebKit/Blink Browsers */
   color: #fff;
 }
 ::-moz-selection {
-  background: #000080;
+  background: #4f5362;
   /* Gecko Browsers */
   color: #fff;
 }
@@ -39,7 +39,7 @@ body {
   font-size: 1em;
 }
 a {
-  color: #000080;
+  color: #37a6c4;
 }
 a:hover {
   text-decoration: none;
@@ -94,7 +94,7 @@ a:hover {
 *      Background Colors        *
 ****************************/
 .bk-primary {
-  background: #000080;
+  background: #325d88;
 }
 .bk-success {
   background: #93c54b;
@@ -418,7 +418,7 @@ a:hover {
 .content-format blockquote {
   border-left: 4px solid #c3c3c3;
   border-left: 4px solid rgba(51, 51, 51, 0.17);
-  color:#1E90FF ;
+  color: #707070;
   color: rgba(51, 51, 51, 0.7);
   font-size: 1.2em;
   font-style: italic;
@@ -612,7 +612,7 @@ li {
 }
 .brand .ts-profile-nav .ts-account > a {
   width: 180px;
-  background: #2c3136;
+  background: #266ACB ;
 }
 .brand .ts-profile-nav .ts-account .ts-avatar {
   border-radius: 50%;
@@ -640,7 +640,7 @@ li {
   background-color: #b4b4b4;
 }
 .ts-sidebar {
-  background: #1E90FF;
+  background: #7a0115;
   max-height: 0;
   transition: max-height 0.3s;
   overflow: hidden;
@@ -673,7 +673,7 @@ li {
   }
 }
 .ts-sidebar-menu .ts-label {
-  color: #1E90FF;
+  color: #585c64;
   font-weight: bold;
   padding: 8px 15px;
   text-transform: uppercase;
@@ -691,7 +691,7 @@ li {
   position: relative;
 }
 .ts-sidebar-menu li i {
-  color: #1E90FF;
+  color: #585c64;
   margin-right: 10px;
 }
 .ts-sidebar-menu li ul {
@@ -710,8 +710,8 @@ li {
   background: rgba(51, 56, 62, 0.35);
 }
 .ts-sidebar-menu > .open > a {
-  background: #1E90FF;
-  border-left: 3px solid #33383e;
+  background: #33383e;
+  border-left: 3px solid #37a6c4;
 }
 .ts-sidebar-menu .open > .more i {
   transform: rotate(180deg);

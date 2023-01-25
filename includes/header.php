@@ -1,26 +1,15 @@
- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary fixed-top">
-      <div class="container-fluid">
 
-        <a class="navbar-brand" href="index.php"><label style="color:white;">ANNOUNCEMENTS</label>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about-us.php">About</a>
-            </li>
-                 <li class="nav-item">
-              <a class="nav-link" href="index.php">News</a>
-            </li>
-             <li class="nav-item">
-              <a class="nav-link" href="contact-us.php">Contact us</a>
-            </li>
-  
-          </ul>
-        </div>
-      </div>
-    </nav>
+<div class="brand clearfix">
+<h4 class="pull-left text-white" style="margin:20px 0px 0px 20px"><i class="fa fa-user"></i>&nbsp;<?php echo htmlentities($_SESSION['username']);?></h4>
+		<span class="menu-btn"><i class="fa fa-bars"></i></span>
+		<ul class="ts-profile-nav">
+			
+			<li class="ts-account">
+				<a href="#"><img src="img/ts-avatar.jpg" class="ts-avatar hidden-side" alt=""> Account <i class="fa fa-angle-down hidden-side"></i></a>
+				<ul>
+					<li><a href="change-password.php">Change Password</a></li>
+					<li><a href="logout.php">Logout</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
