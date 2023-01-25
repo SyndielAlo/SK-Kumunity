@@ -13,7 +13,7 @@ if(isset($_POST['submit']))
 $password=md5($_POST['password']);
 $newpassword=md5($_POST['newpassword']);
 $username=$_SESSION['alogin'];
-$sql ="SELECT Password FROM users WHERE email=:username and password=:password";
+$sql ="SELECT Password FROM admin WHERE email=:username and password=:password";
 $query= $dbh -> prepare($sql);
 $query-> bindParam(':username', $username, PDO::PARAM_STR);
 $query-> bindParam(':password', $password, PDO::PARAM_STR);
